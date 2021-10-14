@@ -1,0 +1,24 @@
+! Blank file in which we can put "overrides" for parameters
+!CONSTRAIN_MOISTURE_TRANSPORT = True
+!PMT_LATITUDE_NORTH=90.0
+!PMT_LATITUDE_SOUTH=-90.0
+!READ_PMT = False
+!PMT_NORTH_FILE = "pmt_north.nc"
+!PMT_SOUTH_FILE = "pmt_south.nc"
+!PMT_FILE_VARIABLE = "poleward_moisture_transport"
+!NUDGE_SEA_ICE = True
+!NUDGE_SEA_ICE_RATE = 1.e3,1.0
+!NUDGE_SEA_ICE_TOLERANCE = 0.05
+!NUDGE_SEA_ICE_STABILITY = 1.0
+!#override ICE_BOUNDS_CHECK = False
+!DEBUG_FAST_ICE = True
+!DEBUG_SLOW_ICE = True
+#override MAXTRUNC=10000
+
+
+#override ICE_BULK_SALINITY = 4.0
+#override ICE_RELATIVE_SALINITY = 0.0
+#override MINIMUM_DEPTH = 10.0
+#override MASKING_DEPTH = 9.9
+#override DT_ICE_DYNAMICS = 600.
+#override DT_RHEOLOGY = 30.
